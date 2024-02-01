@@ -3,7 +3,7 @@
 <suite name="regression">
     <test name="testing">
         <classes>
-            <class name="org.Automation.DemoQA.Alerts"></class>
+            <class name="org.Automation.DemoQA.Alertsbuttons"></class>
             <class name="org.Automation.DemoQA.BrowseWindows"></class>
             <class name="org.Automation.DemoQA.Frames"></class>
             <class name="org.Automation.DemoQA.ModalDialogs"></class>
