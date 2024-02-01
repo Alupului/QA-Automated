@@ -1,5 +1,6 @@
 package org.Automation.Herokuapp;
 
+import org.Automation.utils.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,10 +10,9 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 
 @Test
-public class Playground {
+public class Playground extends TestBase {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
 
         driver.get("https://testpages.herokuapp.com/styled/find-by-playground-test.html");
 

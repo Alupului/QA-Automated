@@ -1,14 +1,14 @@
 package org.Automation.DemoQA;
 
+import org.Automation.utils.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 @Test
-public class Profile {
+public class Profile extends TestBase {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
 
         driver.get("https://demoqa.com/profile");
 

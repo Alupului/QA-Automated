@@ -1,14 +1,14 @@
 package org.Automation.Herokuapp;
 
+import org.Automation.utils.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 @Test
-public class Html5FormElements {
+public class Html5FormElements extends TestBase {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
 
         driver.get("https://testpages.herokuapp.com/styled/html5-form-test.html");
 

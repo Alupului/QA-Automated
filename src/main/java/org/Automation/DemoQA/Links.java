@@ -1,16 +1,16 @@
 package org.Automation.DemoQA;
 
 
+import org.Automation.utils.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 @Test
-public class Links {
+public class Links extends TestBase {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
 
         driver.get("https://demoqa.com/links");
 

@@ -1,22 +1,16 @@
 package org.Automation.DemoQA;
 
+import org.Automation.utils.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 @Test
-public class Login {
+public class Login extends TestBase {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
 
         driver.get("https://demoqa.com/login");
-
-        //driver.findElement(By.id("userName")).sendKeys("Alupului");
-        //driver.findElement(By.id("password")).sendKeys("111111");
-        //WebElement login1 = driver.findElement(By.xpath("//*[@id=\"login\"]"));
-        //((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", login1);
-        //driver.findElement(By.xpath("//*[@id=\"login\"]")).click();
 
         WebElement newuser = driver.findElement(By.id("newUser"));
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", newuser);

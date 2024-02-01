@@ -16,9 +16,6 @@ public class TestBase {
     public void testBase(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-
-        driver =  new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Durations.ofSeconds(30));
         driver.manage().window().maximize();
     }
 

@@ -1,14 +1,14 @@
 package org.Automation.Herokuapp;
 
+import org.Automation.utils.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 @Test
-public class ButtonBasedCalculator {
+public class ButtonBasedCalculator extends TestBase {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
 
         driver.get("https://testpages.herokuapp.com/styled/apps/calculator.html");
 

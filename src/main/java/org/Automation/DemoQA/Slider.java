@@ -1,15 +1,14 @@
 package org.Automation.DemoQA;
 
+import org.Automation.utils.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 @Test
-public class Slider {
+public class Slider extends TestBase {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        //driver.manage().window().maximize();
-        driver.manage().window().setSize(new Dimension(1920, 1080));
 
         driver.get("https://demoqa.com/slider");
 

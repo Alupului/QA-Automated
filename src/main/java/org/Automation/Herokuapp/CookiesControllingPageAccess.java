@@ -1,14 +1,14 @@
 package org.Automation.Herokuapp;
 
+import org.Automation.utils.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 @Test
-public class CookiesControllingPageAccess {
+public class CookiesControllingPageAccess extends TestBase {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
 
         driver.get("https://testpages.herokuapp.com/styled/cookies/adminlogin.html");
 
