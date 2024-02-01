@@ -9,6 +9,28 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../Added file for IJDE/selenium-java-4.10.0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../Added file for IJDE/selenium-java-4.10.0" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../Added file for IJDE/selenium-java-4.10.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../Added file for IJDE/selenium-java-4.10.0" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../Added file for IJDE/selenium-server-4.10.0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:4.10.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:4.10.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.10.0" level="project" />
@@ -78,27 +100,7 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: com.beust:jcommander:1.82" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery:3.6.1" level="project" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../Added file for IJDE/selenium-java-4.10.0" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../Added file for IJDE/selenium-java-4.10.0" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../Added file for IJDE/selenium-java-4.10.0" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../Added file for IJDE/selenium-java-4.10.0" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../Added file for IJDE/selenium-server-4.10.0" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: io.cucumber:gherkin:27.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:messages:22.0.0" level="project" />
   </component>
 </module>

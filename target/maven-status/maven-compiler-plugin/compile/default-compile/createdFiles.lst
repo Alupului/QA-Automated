@@ -1,8 +1,9 @@
 org\Automation\DemoQA\Resizable.class
 org\Automation\Herokuapp\JavaScriptCountdown.class
 org\Automation\DemoQA\Accordian.class
+org\Automation\DemoQA\Alertsbuttons.class
 org\Automation\DemoQA\DataPicker.class
-org\Automation\DemoQA\Alerts.class
+org\Automation\Steps\GoogleStepsDefinition.class
 org\Automation\DemoQA\Slider.class
 org\Automation\Herokuapp\Attributes.class
 org\Automation\Herokuapp\FramesTestPage.class
@@ -52,6 +53,7 @@ org\Automation\Herokuapp\Html5FormElements.class
 org\Automation\Herokuapp\ClientServerFormInputValidation.class
 org\Automation\DemoQA\AutoComplete.class
 org\Automation\Herokuapp\DynamicButtonsChallenge2.class
+org\Automation\utils\TestBase.class
 org\Automation\DemoQA\BookStore.class
 org\Automation\DemoQA\TextBox.class
 org\Automation\Herokuapp\Alertsbtns.class

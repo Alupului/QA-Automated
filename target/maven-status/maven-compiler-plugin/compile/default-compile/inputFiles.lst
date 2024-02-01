@@ -3,6 +3,7 @@ D:\QA-Automation\src\main\java\org\Automation\Herokuapp\CanvasDrawing.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\RadioButton.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\UploadAndDownload.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\KeyClick.java
+D:\QA-Automation\src\main\java\org\Automation\Steps\GoogleStepsDefinition.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\DragAndDropEx.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\HardToSelectButtons.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\FramesTestPage.java
@@ -21,6 +22,7 @@ D:\QA-Automation\src\main\java\org\Automation\Herokuapp\CookiesControllingPageAc
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\Events.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\RedirectPage.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\ToolTips.java
+D:\QA-Automation\src\main\java\org\Automation\utils\TestBase.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\BasicJavaScript.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\DynamicButtonsChallenge2.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\NestedFrames.java
@@ -53,6 +55,7 @@ D:\QA-Automation\src\main\java\org\Automation\DemoQA\Menu.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\Dragabble.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\Login.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\Buttons.java
+D:\QA-Automation\src\main\java\org\Automation\DemoQA\Alertsbuttons.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\Frames.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\FakeAlerts.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\BasicWebPage.java
@@ -68,6 +71,5 @@ D:\QA-Automation\src\main\java\org\Automation\DemoQA\WebTables.java
 D:\QA-Automation\src\main\java\org\Automation\Herokuapp\DynamicButtonsChallenge1.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\ModalDialogs.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\Tabs.java
-D:\QA-Automation\src\main\java\org\Automation\DemoQA\Alerts.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\ProgressBar.java
 D:\QA-Automation\src\main\java\org\Automation\DemoQA\Accordian.java
