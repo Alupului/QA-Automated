@@ -9,9 +9,9 @@ Feature: Testing schedule feature
 
   Scenario: Herokuapp
     Given I enter first page on Herokuapp
-  When I select an element from Herokuapp
-  When I am directed to Herokuapp page selected
-  Then I am able to select an subpage from Herokuapp
+    When I select an element from Herokuapp
+    When I am directed to Herokuapp page selected
+    Then I am able to select an subpage from Herokuapp
 
 
 
